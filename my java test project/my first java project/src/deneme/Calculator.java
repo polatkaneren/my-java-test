@@ -23,22 +23,37 @@ public class Calculator {
 		switch(işlem) {
 		
 		
-		case '+':
-			sonuç = sayıBir + sayıİki;
+		case '+':sonuç = sayıBir + sayıİki;
+
 			System.out.println(sayıBir + " + " + sayıİki + " = " + sonuç);
+
 		break;
+
+
 		
 		case '-':sonuç = sayıBir - sayıİki;
+
 				System.out.println(sayıBir + " - " + sayıİki + " = " + sonuç);
+
 			break;
+
+
 			
-		case '*':sonuç = sayıBir - sayıİki;
-				System.out.println(sayıBir + " - " + sayıİki + " = " + sonuç);
+		case '*':sonuç = sayıBir * sayıİki;
+
+				System.out.println(sayıBir + " * " + sayıİki + " = " + sonuç);
+
 			break;
+
+
 			
 		case '/':sonuç = sayıBir / sayıİki;
+
 				System.out.println(sayıBir + " / " + sayıİki + " = " + sonuç);
+
 			break;
+
+			
 		
 	
 		default: System.out.println("Çarpma, bölme,çıkarma veya toplamı işlemi seçiniz.");
